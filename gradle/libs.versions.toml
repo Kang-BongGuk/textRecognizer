@@ -1,0 +1,36 @@
+[versions]
+agp = "8.3.1"
+fragmentKtx = "1.8.6"
+kotlin = "1.9.0"
+core = "1.13.1"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.6.1"
+activity = "1.8.0"
+lifecycle-viewmodel-ktx = "2.7.0"
+constraintlayout = "2.2.0"
+textRecognition = "16.0.1"
+cameraxVersion = "1.2.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+core = { group = "androidx.core", name = "core", version.ref = "core" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+lifecycle-viewmodel-ktx = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-viewmodel-ktx" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+text-recognition = { module = "com.google.mlkit:text-recognition", version.ref = "textRecognition" }
+camerax-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "cameraxVersion" }
+camerax-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraxVersion" }
+camerax-view = { module = "androidx.camera:camera-view", version.ref = "cameraxVersion" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

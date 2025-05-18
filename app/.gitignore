@@ -1,0 +1,53 @@
+# Kotlin/Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.hprof
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Local configuration files
+local.properties
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Android Studio
+.cxx/
+captures/
+.externalNativeBuild/
+.navigation/
+.vscode/
+
+# Jetpack Compose previews
+*.preview
+
+# Keystore files (do not commit sensitive keys)
+*.jks
+*.keystore
+
+# Firebase/Crashlytics
+google-services.json
+firebase-debug.log
+
+# Others
+*.apk
+*.ap_
+*.dex
+
+# NDK/LLDB
+*.so
+obj/
